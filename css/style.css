@@ -1,0 +1,56 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+/* CSS RESET */
+
+
+/* ! elemento principale della pagina */
+.pagina {
+    float: left;
+    width: 100%;
+    height: 100vh;              /* Imposta l'altezza al 100% del viewport */
+    text-align: center;          /* Centra il contenuto orizzontalmente */
+}
+
+
+
+/* ! proprietà dell'elemento principale della pagina */
+.pagina img {
+    display: block;      /* per impostare l'immagine come blocco per centrarla */
+    margin: 0 auto;             /* centrare l'immagine orizzontalmente */
+    margin-top: 20vh;                  /* Spazio sopra l'immagine */
+    width: 50%;                        /* Larghezza dell'immagine */
+}
+
+.pagina h2 {
+    font-size: 50px;
+    margin-bottom: 3rem;
+}
+
+.rossa {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;
+}
+
+.gialla {
+    background-color: yellow;
+}
+
+
+
+/* + slogan della pagina ----------------- */
+.slogan{
+    color: yellow;
+    text-transform: uppercase;
+}
+
+.alternative{
+    color: green;
+}
+/* + FINE slogan della pagina ------------ */
